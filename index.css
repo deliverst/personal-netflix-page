@@ -1,0 +1,126 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');*/
+
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 100;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff) format('woff')
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 300;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Lt.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Lt.woff) format('woff')
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 400;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff) format('woff')
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 700;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff) format('woff')
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 800;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Bd.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Bd.woff) format('woff')
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 900;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Blk.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Blk.woff) format('woff')
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: url("https://occ-0-616-621.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABca_mnWg-4fa_i2AE5La7R5zet_KX3t7N5R6J_oif5NyfSQY9uz7psbYIWiqstTR0iYi8rHdzN9SIzN4vitky8xvi_5n.jpg?r=343");
+    object-fit: fill;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    padding: 0 60px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 200;
+    padding: 0;
+
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.logo, .pp {
+    height: 30px;
+    padding-right: 35px;
+}
+
+
+li {
+    list-style: none;
+    /*padding: 0 15px;*/
+}
+
+
+a {
+    font-family: "Netflix Sans", serif;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+
+}
+
+a:hover {
+    color: #b3b3b3;
+    transition: all ease-out 150ms;
+}
+
+.active {
+    font-weight: 500;
+}
+
+.active a:hover {
+    color: white !important;
+}
+
+header {
+    background: linear-gradient(0deg, transparent, black);
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+nav {
+    padding: 20px 0;
+}
+
+.fa {
+    font-size: 23px !important;
+}
